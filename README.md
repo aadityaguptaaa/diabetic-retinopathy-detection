@@ -131,7 +131,7 @@ python backend.py
 
 The backend will start an API to process retinal images and provide DR predictions.
 
-### Frontend (Vite)
+### Frontend
 Navigate to the frontend directory:
 ```bash
 cd D:\Project\diabetic-retinopathy-detection\retina-bright-insight\retina-bright-insight
