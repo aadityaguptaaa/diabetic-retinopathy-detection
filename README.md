@@ -111,7 +111,7 @@ TensorBoard tracks metrics like loss, accuracy, learning rate, and visualizes mo
 pip install tensorboard
 tensorboard --logdir=logs/
 ```
-Open the URL provided in the terminal (usually [http://localhost:6006](http://localhost:6006)) to monitor training progress in real time.
+Open the URL provided in the terminal (usually [http://localhost:6006](http://localhost:8000)) to monitor training progress in real time.
 
 
 
