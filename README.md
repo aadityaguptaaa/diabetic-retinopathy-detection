@@ -180,3 +180,14 @@ Open the URL shown in the terminal (usually [http://localhost:5173/](http://loca
 - [Kaggle Diabetic Retinopathy Detection Competition](https://www.kaggle.com/c/diabetic-retinopathy-detection)  
 - [PyTorch Lightning Documentation](https://lightning.ai/docs/pytorch/stable/)  
 - [Vite Documentation](https://vitejs.dev/)  
+
+
+
+## 📬 Connect with Me
+- 🌐 Portfolio: [Aaditya](https://aadityaguptaaa.github.io/My-Portfolio/) 
+- 💼 LinkedIn: [AadityaxGupta](https://www.linkedin.com/in/aadityaxgupta/)
+- 📧 Email: aadityavidit@gmail.com 
+
+
+
+💼 Developed by [Aaditya Gupta](https://www.linkedin.com/in/aadityaxgupta/) | Software Developer & Full Stack Enthusiast
