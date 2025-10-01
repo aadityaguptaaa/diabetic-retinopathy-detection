@@ -1,16 +1,24 @@
-# Diabetic Retinopathy Detection
+# Diabetic Retinopathy Detection: Utilizing Multiprocessing for Processing Large Datasets and Transfer Learning to Fine-Tune Deep Learning Models
 
-## Utilizing Multiprocessing for Large Dataset Processing and Transfer Learning to Fine-Tune Deep Learning Models
+
+
+Efficiently process large datasets & develop advanced model pipelines for diabetic retinopathy detection. Streamlining diagnosis.
+
+
 
 ### TL;DR
 This project efficiently handles large datasets to develop a robust deep learning model for diabetic retinopathy (DR) detection. Using **PyTorch Lightning**, retinal images are categorized into distinct disease stages. Multiple pretrained backbone models are integrated, with training progress monitored via **TensorBoard**. Additionally, a **Vite-based frontend web application** is provided to showcase the model’s capabilities.
 
 The pipeline streamlines data preprocessing, model training, and deployment, making DR diagnosis more accessible and accurate.
 
----
+
+
 
 ## Introduction
 Diabetic retinopathy is a leading cause of vision loss worldwide. Early detection is critical for preventing severe complications. This project provides a ready-to-use platform for researchers and enthusiasts to experiment with DR detection using deep learning.
+
+
+
 
 ### Key features:
 - Efficient handling of large datasets using multiprocessing  
@@ -19,7 +27,7 @@ Diabetic retinopathy is a leading cause of vision loss worldwide. Early detectio
 - Monitoring experiments with TensorBoard  
 - Interactive Vite frontend for model demonstration  
 
----
+
 
 ## Getting Started
 
@@ -38,7 +46,8 @@ Activate your Python virtual environment (example):
 .venv311\Scripts\activate
 ```
 
----
+
+
 
 ## Dataset Preparation
 
@@ -73,7 +82,7 @@ python scripts/split_dataset.py
 
 ✅ *Note: You can skip dataset preparation if already completed in this studio.*
 
----
+
 
 ## Model Training & Monitoring
 
@@ -104,7 +113,7 @@ tensorboard --logdir=logs/
 ```
 Open the URL provided in the terminal (usually [http://localhost:6006](http://localhost:6006)) to monitor training progress in real time.
 
----
+
 
 ## Running the Application
 
@@ -142,7 +151,7 @@ Open the URL shown in the terminal (usually [http://localhost:5173/](http://loca
 
 ✅ *Ensure the backend server is running before using the frontend for predictions.*
 
----
+
 
 ## Key Features
 - Multiprocessing for efficient large dataset handling  
@@ -150,21 +159,22 @@ Open the URL shown in the terminal (usually [http://localhost:5173/](http://loca
 - Configurable training pipeline with logging and visualization  
 - Interactive Vite frontend for user-friendly predictions  
 
----
+
 
 ## Tech Stack
 - **Languages:** Python, JavaScript  
 - **Frameworks/Libraries:** PyTorch, PyTorch Lightning, TensorBoard, Vite  
 - **Tools:** Kaggle API, Multiprocessing, NumPy, Pandas  
 
----
+
 
 ## Future Work
 - Expand model ensemble for improved accuracy  
 - Integrate additional datasets for robustness  
 - Optimize web app for cloud deployment  
 
----
+
+
 
 ## References
 - [Kaggle Diabetic Retinopathy Detection Competition](https://www.kaggle.com/c/diabetic-retinopathy-detection)  
