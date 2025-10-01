@@ -1,0 +1,21 @@
+# conf/config.yaml
+
+# Data paths
+train_csv_path: "data/diabetic-retinopathy-dataset/train_split.csv"
+val_csv_path: "data/diabetic-retinopathy-dataset/val_split.csv"
+
+# Experiment settings
+seed: 42
+batch_size: 32
+num_workers: 4
+use_class_weighting: true
+use_weighted_sampler: false  # mutually exclusive with class weighting
+model_name: "densenet169"
+max_epochs: 20
+image_size: 224
+learning_rate: 3e-4
+use_scheduler: true
+
+# Logging and checkpointing
+logs_dir: "logs"
+checkpoint_dirpath: "artifacts/checkpoints"
