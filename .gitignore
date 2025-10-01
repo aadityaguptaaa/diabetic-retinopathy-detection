@@ -1,0 +1,10 @@
+# Python virtual environments
+.venv311/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Others
+*.DS_Store
