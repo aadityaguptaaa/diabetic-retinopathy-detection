@@ -4,6 +4,7 @@ from lightning.pytorch.callbacks import ModelCheckpoint, EarlyStopping
 from src.data_module import DRDataModule
 from src.model import DRModel
 
+
 if __name__ == "__main__":
     # Paths
     train_csv = "data/diabetic-retinopathy-dataset/train_split.csv"
