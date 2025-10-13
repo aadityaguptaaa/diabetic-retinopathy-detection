@@ -8,6 +8,7 @@ Efficiently process large datasets & develop advanced model pipelines for diabet
 
 
 
+
 ### TL;DR
 This project efficiently handles large datasets to develop a robust deep learning model for diabetic retinopathy (DR) detection. Using **PyTorch Lightning**, retinal images are categorized into distinct disease stages. Multiple pretrained backbone models are integrated, with training progress monitored via **TensorBoard**. Additionally, a **Vite-based frontend web application** is provided to showcase the model’s capabilities.
 
